@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💖 Per te 💖</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 1rem;
+    }
+    .card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      max-width: 400px;
+      text-align: center;
+    }
+    .turtle {
+      width: 150px;
+      margin: 0 auto 1rem;
+      animation: wiggle 2s infinite ease-in-out;
+    }
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(1deg); }
+      75% { transform: rotate(-1deg); }
+    }
+    .message {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .footer {
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://i.ibb.co/Trp2tPz/kawaii-turtle.png" alt="kawaii turtle" class="turtle" />
+    <div class="message">
+      Un anno fa hai fatto un passo coraggioso 🙈<br />
+      mi hai creato uno spazio nella tua vita ❤️✨<br /><br />
+      <strong>Sei la mia <code>const</code> in questa vita piena di <code>workarounds</code> 🥰</strong>
+    </div>
+    <div class="footer">🧡 Con amore, la tua Happy 💛</div>
+  </div>
+</body>
+</html>
